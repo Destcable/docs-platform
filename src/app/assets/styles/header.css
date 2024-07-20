@@ -1,12 +1,14 @@
 header { 
     display: flex;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 0.7em;
 }
 
 .header-actions { 
+    display: flex;
+    align-items: center;
     color: #787878;
 }
 

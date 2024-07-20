@@ -1,6 +1,8 @@
-import Header from "./header"
+import { Card } from "./Card"
+import Header from "./Header"
 
 
 export { 
-    Header
+    Header,
+    Card
 }
