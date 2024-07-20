@@ -5,7 +5,11 @@ function App() {
     return (
         <>
             <Header />
-            {/* <Card /> */}
+            <div style={{ display: "flex", gap: '2rem', paddingRight: '3rem', paddingLeft: '3rem' }}>
+                <Card name="Тестирование" />
+                <Card name="Тестирование" />
+                <Card name="Тестирование" />
+            </div>
 
         </>
     )

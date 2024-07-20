@@ -5,18 +5,19 @@ export const useStyles = makeStyles({
         display: 'flex',
         backgroundColor: '#f4f4f4',
         justifyContent: 'space-between',
-        paddingRight: '1rem',
-        paddingLeft: '1rem',
+        paddingRight: '3rem',
+        paddingLeft: '3rem',
         paddingTop: '0.5rem',
     },
-    headerLogo: { 
-        width: '2rem'
-    },
+
+    headerLogo: { width: '2rem' },
+
     headerActions: { 
         display: 'flex',
         alignItems: 'center',
         color: '#787878'
     },
+    
     headerActionsItem: { 
         display: 'flex',
         gap: '4px',

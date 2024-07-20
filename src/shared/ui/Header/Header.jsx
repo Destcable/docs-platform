@@ -1,5 +1,5 @@
 import Icon from '../../../app/assets/icons/docs.png'
-import { useStyles } from './Header.styles';
+import { useStyles } from './Header.styles'
 import { HeaderActions } from './HeaderActions'
 
 export const Header = () => { 
