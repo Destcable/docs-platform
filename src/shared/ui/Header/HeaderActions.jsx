@@ -9,5 +9,8 @@ export const HeaderActions = () => {
             <CiSearch />
             <span>Поиск</span>
         </div>
+        <div>
+            
+        </div>
     </div>
 };
