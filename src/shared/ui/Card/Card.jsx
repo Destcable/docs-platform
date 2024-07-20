@@ -1,6 +1,7 @@
-export const Card = ({ backgroundColor = "#ffff" }) => { 
+import '../../../app/assets/styles/card.css'
+export const Card = ({ backgroundColor = "#fafafa" }) => { 
     return <div 
-        className="" 
+        className="card" 
         style={{ backgroundColor: backgroundColor }}
     >
         123

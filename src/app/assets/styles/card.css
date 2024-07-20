@@ -1,3 +1,10 @@
 .card {
-    
+    display: flex;
+    padding: 1rem;
+    min-height: 8rem;
+    cursor: pointer;
+}
+
+.card-item--name { 
+    font-size: 16px;
 }
