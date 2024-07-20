@@ -5,10 +5,8 @@ function App() {
     return (
         <>
             <Header />
-            <div style={{ display: "flex"}}>
-            <Card />
+            {/* <Card /> */}
 
-            </div>
         </>
     )
 }

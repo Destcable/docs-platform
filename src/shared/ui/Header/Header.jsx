@@ -1,10 +1,12 @@
-import '../../../app/assets/styles/header.css'
-import Icon from "../../../app/assets/icons/docs.png"
-import { HeaderActions } from "./HeaderActions"
+import Icon from '../../../app/assets/icons/docs.png'
+import { useStyles } from './Header.styles';
+import { HeaderActions } from './HeaderActions'
 
 export const Header = () => { 
-    return <header>
-        <img src={Icon} alt="icon" className="header-logo"/>
+    const classes = useStyles();
+    
+    return <header className={classes.header}>
+        <img src={Icon} alt='icon' className={classes.headerLogo}/>
         <HeaderActions />
     </header>
 };
