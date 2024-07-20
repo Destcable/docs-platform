@@ -1,11 +1,10 @@
-import { Header } from "./app/shared/ui"
+import { Header } from "./shared/ui"
 
 function App() {
 
     return (
         <>
-            <Header>
-            </Header>
+            <Header />
         </>
     )
 }
