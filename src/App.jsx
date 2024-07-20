@@ -1,8 +1,12 @@
+import { Header } from "./app/shared/ui"
 
 function App() {
 
     return (
-        <>123</>
+        <>
+            <Header>
+            </Header>
+        </>
     )
 }
 

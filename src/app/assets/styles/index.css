@@ -1,9 +1,4 @@
 body { 
     margin: 0;
-}
-
-header { 
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
+    background-color: #f4f4f4;
 }
