@@ -1,7 +1,7 @@
 import Icon from '../../../app/assets/icons/docs.png'
 import { HeaderActionsSearch } from './components/actions/HeaderActionsSearch';
 import { HeaderActionsSpace } from './components/actions/HeaderActionsSpace';
-import { useStyles } from './components/styles/Header.styles'
+import { useStyles } from './styles/Header.styles'
 import { HeaderActionsWrapper } from './components/actions/HeaderActionsWrapper'
 import { HeaderLogo } from './components/HeaderLogo';
 
