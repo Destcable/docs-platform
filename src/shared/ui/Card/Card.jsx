@@ -1,31 +1,26 @@
 import {
-    Caption1,
     CardHeader,
-    mergeClasses,
-    Text,
     Card as CardFluentUI
 } from '@fluentui/react-components'
 import '../../../app/assets/styles/card.css'
 import React from 'react'
-import { useStyles } from './Card.styles';
+import { useStyles } from './styles/Card.styles';
+import { CardTitle } from './components/CardTitle';
+import { CardDescription } from './components/CardDescription';
 
-
-
-export const Card = ({ name }) => {
-    const styles = useStyles();
+export const Card = ({ title, description }) => {
+    const classes = useStyles();
 
     const onClick = React.useCallback(() => console.log('Interactive!'), []);
-    const CardName = <Text weight='semibold'>{name}</Text>
-    const CardDescription = <Caption1 className={styles.caption}>...</Caption1>
 
-    return <CardFluentUI
-        className={mergeClasses(styles.main, styles.card)}
-        onClick={onClick}
-    >
+    return <CardFluentUI className={classes.card} onClick={onClick}>
         <CardHeader
-            header={CardName}
-            description={CardDescription}
+            header={<CardTitle>{title}</CardTitle>}
+            description={
+                <CardDescription classes={classes}>
+                    {description}
+                </CardDescription>
+            }
         />
-
     </CardFluentUI>
 };

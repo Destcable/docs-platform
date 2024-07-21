@@ -14,12 +14,12 @@ function App() {
                     paddingLeft: '3rem',
                     gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr'
                 }}>
-                <Card name="Тестирование" />
-                <Card name="Тестирование" />
-                <Card name="Тестирование" />
-                <Card name="Тестирование" />
-                <Card name="Тестирование" />
-                <Card name="Тестирование" />
+                <Card title="Тестирование" />
+                <Card title="Тестирование" />
+                <Card title="Тестирование" />
+                <Card title="Тестирование" />
+                <Card title="Тестирование" />
+                <Card title="Тестирование" />
                 
             </div>
 
